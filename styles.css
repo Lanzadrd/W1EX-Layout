@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  border: 1px dashed #fabada;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: rgb(45, 49, 66);
+  padding: 21px;
+}
+
+.header__title {
+  color: red;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.main__section {
+  flex: 2;
+  background-color: rgb(217, 213, 220);
+}
+
+.main__sidebar {
+  flex: 1;
+  background-color: rgb(173, 172, 181);
+}
